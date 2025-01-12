@@ -10,3 +10,4 @@ Entitati:
 •	Stoc, produse,
 •	Furnizori, date_furnizori
 
+![Diagrama DB](diagrame.png)
