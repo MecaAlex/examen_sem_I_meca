@@ -13,5 +13,5 @@ CREATE TABLE IF NOT EXISTS judete
 	nume VARCHAR(50) UNIQUE NOT NULL,
 	indicativ CHAR(2) NOT NULL,
 	suprafata DECIMAL NULL,
-	tara_fid INTEGER NOT NULL
+	tara_fid INTEGER NOT NULL REFERENCES tara(fid) 
 );
