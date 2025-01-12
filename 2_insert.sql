@@ -1,5 +1,10 @@
 --INSERT IN TABLE tara
 INSERT INTO tara(nume, indicativ) values('Romania','RO');
+INSERT INTO tara(nume, indicativ) values
+	('Franta','FR'),
+	('Germania','DE'),
+	('Bulgaria','BG'),
+	('Moldova','MD');
 
 
 --INSERT IN TABLE judete
